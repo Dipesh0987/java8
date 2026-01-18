@@ -13,7 +13,7 @@ public class DBFetch {
 			pstm.setString(1, name);
 			ResultSet r = pstm.executeQuery();
 			if (r.next()) {
-				System.out.println("Pakadliya");
+				System.out.println("AAH Pakadliya");
 				System.out.println("Name: "+r.getString("name"));
 				System.out.println("Email: "+r.getString("email"));
 			}else {
